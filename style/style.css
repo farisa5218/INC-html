@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e8e4e4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    background: #bed2f5;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.badge-container{
+    position :absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.badge{
+    background: #4b0082;
+    color: white;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 0 0 10px 0;
+}
+.img{
+    text-align: center;
+    padding-top: 40px;
+}
+.img img{
+    width: 80%;
+}
+.content{
+    padding: 15px;
+}
+.content ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.content ul li::before{
+    text-decoration: none;
+    content: "*";
+    color: #555;
+    display: inline-block;
+    width: 1em;
+    margin: -1em;
+   
+}
+.link a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-transform: none;
+    display: block;
+    
+}
+.link{
+    padding-top: 10px;
+    text-decoration: solid;
+    font-weight: bold;
+}
+.price{
+    font-size: 20px;
+    color: red;
+   font-weight: bold;
+   
+}
+.old-price{
+    font-size: 16px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.pp{
+    text-align: center;
+    display: block;
+}
+.button
+{
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background-color:#171075;
+}
+.button i{
+    margin: 5px;
+}
